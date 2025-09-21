@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "computer HP",
+      "category": "computer",
+      "brand": "HP Company",
+      "price": 1300,
+      "isAvailable": true,
+      "description": {
+        "productDescription": "description related to the computer HP",
+        "productFeatures": "features related to the computer HP"
+      }
+    },
+    {
+      "id": 2,
+      "productName": "smartphone Iphone",
+      "category": "electronics",
+      "brand": "Apple",
+      "price": 1200,
+      "isAvailable": false,
+      "description": {
+        "productDescription": "description related to the Iphone",
+        "productFeatures": "features related to the Iphone"
+      }
+    },
+    {
+      "id": 3,
+      "productName": "smartphone google px10",
+      "category": "electronics",
+      "brand": "Google",
+      "price": 1000,
+      "isAvailable": true,
+      "description": {
+        "productDescription": "description related to the google px10",
+        "productFeatures": "features related to the google px10"
+      }
+    },
+    {
+      "id": 4,
+      "productName": "computer mac book",
+      "category": "computer",
+      "brand": "Apple",
+      "price": 1800,
+      "isAvailable": false,
+      "description": {
+        "productDescription": "description related to the mac book",
+        "productFeatures": "features related to the mac book"
+      }
+    },
+    {
+      "id": 5,
+      "productName": "speaker Anker",
+      "category": "electronics",
+      "brand": "Anker",
+      "price": 35,
+      "isAvailable": true,
+      "description": {
+        "productDescription": "description related to the speaker Anker",
+        "productFeatures": "features related to the speaker Anker"
+      }
+    },
+    {
+      "id": 6,
+      "productName": "I-Phone17",
+      "category": "electronics",
+      "brand": "Apple",
+      "price": 1500,
+      "isAvailable": false,
+      "description": {
+        "productDescription": "description related to the AI-Phone17",
+        "productFeatures": "features related to the I-Phone17"
+      }
+    },
+    {
+      "id": 7,
+      "productName": "3d printer",
+      "category": "electronics",
+      "brand": "Print company",
+      "price": 800,
+      "isAvailable": false,
+      "description": {
+        "productDescription": "description related to the 3d printer",
+        "productFeatures": "features related to the 3d printer"
+      }
+    },
+    {
+      "productName": "Gaming Laptop",
+      "category": "computer",
+      "brand": "Asus",
+      "price": 1500,
+      "isAvailable": true,
+      "description": {
+        "productDescription": "High performance gaming laptop",
+        "productFeatures": "RTX 4060, 16GB RAM, 1TB SSD"
+      },
+      "id": 8
+    },
+    {
+      "id": 9,
+      "productName": "Dash Cam new version",
+      "category": "electronics",
+      "brand": "DashCam company",
+      "price": 45,
+      "isAvailable": true,
+      "description": {
+        "productDescription": "High quality video with this new version",
+        "productFeatures": "Full HD micro sd 128GB"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Alex",
+        "country": "Italy"
+      },
+      "rate": 4,
+      "productId": 4,
+      "rateDescription": "I like very much the computer, fast delivery"
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "Sofia",
+        "country": "Spain"
+      },
+      "rate": 5,
+      "productId": 1,
+      "rateDescription": "Excellent HP computer, powerful and reliable."
+    },
+    {
+      "id": 3,
+      "user": {
+        "name": "John",
+        "country": "USA"
+      },
+      "rate": 3,
+      "productId": 2,
+      "rateDescription": "The iPhone is good but too expensive for the features."
+    },
+    {
+      "id": 4,
+      "user": {
+        "name": "Mei",
+        "country": "China"
+      },
+      "rate": 5,
+      "productId": 3,
+      "rateDescription": "Google px10 camera quality is amazing, very happy with it."
+    },
+    {
+      "id": 5,
+      "user": {
+        "name": "Carlos",
+        "country": "Brazil"
+      },
+      "rate": 4,
+      "productId": 5,
+      "rateDescription": "Great little speaker for the price, clear sound."
+    },
+    {
+      "id": 6,
+      "user": {
+        "name": "Emma",
+        "country": "UK"
+      },
+      "rate": 2,
+      "productId": 4,
+      "rateDescription": "MacBook is sleek but I had issues with overheating."
+    },
+    {
+      "id": 7,
+      "user": {
+        "name": "Anita",
+        "country": "UK"
+      },
+      "rate": 5,
+      "productId": 1,
+      "rateDescription": "The laptop HP works fine."
+    }
+  ]
+}
