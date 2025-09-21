@@ -95,18 +95,6 @@
         "productFeatures": "RTX 4060, 16GB RAM, 1TB SSD"
       },
       "id": 8
-    },
-    {
-      "id": 9,
-      "productName": "Dash Cam new version",
-      "category": "electronics",
-      "brand": "DashCam company",
-      "price": 45,
-      "isAvailable": true,
-      "description": {
-        "productDescription": "High quality video with this new version",
-        "productFeatures": "Full HD micro sd 128GB"
-      }
     }
   ],
   "reviews": [

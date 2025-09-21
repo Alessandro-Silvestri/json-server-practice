@@ -90,8 +90,7 @@ fetch('http://localhost:3000/products', {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-                            PUT data (update)
+                            PUT data (update / replace all)
                             it replaces all the values.
                             NB. if you don't specify a value it will be eliminated
 
@@ -117,6 +116,36 @@ fetch('http://localhost:3000/products/9', {  // Update product with id 4
     .then(data => console.log('Updated product:', data))
     .catch(error => console.error('Error:', error));
 
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+                            PATCH data (update)
+                            it replaces only the value you specify
+
+fetch('http://localhost:3000/products/9', {  // Update product with id 9
+    method: 'PATCH',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        price: 50,  // Updated price only
+        isAvailable: false,  // Updated availability only
+        description: {
+            productDescription: "Enhanced dash cam with night vision",  // Updated description
+            productFeatures: "4K Ultra HD, 256GB micro sd, GPS tracking"  // Updated features
+        }
+    })
+})
+    .then(response => response.json())
+    .then(data => console.log('Updated product:', data))
+    .catch(error => console.error('Error:', error));
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+                            DELETE data (update)
+                            it replaces only the value you specify
 
 
 
