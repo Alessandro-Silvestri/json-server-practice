@@ -150,5 +150,5 @@ fetch('http://localhost:3000/products/9', {  // Update product with id 9
 
 
 
-arrived until here: (I have to do: Patch and delete)
-https://youtu.be/iNps8SBv-1A?list=PLC3y8-rFHvwhc9YZIdqNL5sWeTCGxF4ya
+arrived until here: (I have to do: configuration and random data)
+https://youtu.be/zKmAs-MFlZw?list=PLC3y8-rFHvwhc9YZIdqNL5sWeTCGxF4ya
