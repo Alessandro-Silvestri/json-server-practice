@@ -1,3 +1,6 @@
+Tutorial: https://www.youtube.com/watch?v=_1kNqAybxW0&list=PLC3y8-rFHvwhc9YZIdqNL5sWeTCGxF4ya&index=1
+
+
 start the server: (always use the watch command otherwise it gives errors when you do this: http://localhost:3000/products/1)
     npx json-server --watch db.json
     (in db.json there are 2 end points: products and rates)
@@ -149,6 +152,7 @@ fetch('http://localhost:3000/products/9', {  // Update product with id 9
 
 
 
+                                        routes
+                (It's possible, in json-server to create custom routes for creating custom addresses for ex. categories or endpoints)
+                just study it only if you needed it
 
-arrived until here: (I have to do: configuration and random data)
-https://youtu.be/zKmAs-MFlZw?list=PLC3y8-rFHvwhc9YZIdqNL5sWeTCGxF4ya
